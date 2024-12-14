@@ -827,6 +827,8 @@ footer {
   transition: border-color var(--transition-hover-focus);
 }
 
+
+
 .modal-form-field:hover,
 .modal-form-field:focus {
   border-color: var(--cl-iris);
@@ -843,6 +845,8 @@ footer {
   padding: 8px 16px;
   resize: none;
   overflow-y: auto;
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .modal-form-textarea::placeholder {
