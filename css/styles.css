@@ -900,10 +900,9 @@ footer {
   margin-right: 8px;
   border: 1px solid rgba(0, 0, 128, 0.4);
   border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   fill: transparent;
-  transition: background-color var(--transition-hover-focus);
-  fill: var(--transition-hover-focus);
-  border: 1px solid rgba(46, 47, 66, 0.4); 
 }
 
 .privacy-policy-link {
@@ -928,5 +927,5 @@ footer {
   color: var(--cl-white);
   background-color: var(--cl-iris);
   border: none;
-  transition: var(--transition-hover-focus);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
