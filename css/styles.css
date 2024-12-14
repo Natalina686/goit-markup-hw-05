@@ -569,6 +569,10 @@ footer {
   max-width: 264px;
 }
 
+.social-media-cont {
+  margin-right: 80px;
+}
+
 .social-media-item .social-media-list {
   display: flex;
 }
@@ -671,17 +675,17 @@ footer {
   letter-spacing: 0.04em;
   color: var(--cl-white);
   background-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer-subscribe-input::placeholder {
-  color: #ffffff;
+  color: var(--cl-white);
 }
 
 .footer-subscribe-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-
   min-width: 165px;
   padding: 8px 0;
   text-align: center;
@@ -689,6 +693,11 @@ footer {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  height: 40px;
+  color: var(--cl-white);
+  background-color: var(--cl-iris);
+  border: none;
+  border-radius: 4px;
 }
 
 .footer-subscribe-icon {
@@ -842,7 +851,7 @@ footer {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  border: 1px solid rgba(46, 47, 66, 0.4)
+  
 }
 
 .modal-form-icon {
