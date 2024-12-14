@@ -699,7 +699,8 @@ footer {
 /* Модальне вікно*/
 
 .modal-overlay {
-  background-color: rgba(0, 0, 128, 0.4);
+  
+  background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
   top: 0;
   left: 0;
@@ -747,7 +748,8 @@ footer {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.14);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0; 
   color: var(--cl-navy-blue);
   background-color: var(--cl-cornflower);
   transition: background-color var(--transition-hover-focus),
@@ -824,6 +826,7 @@ footer {
 .modal-form-input {
   height: 40px;
   padding: 11px 16px 11px 38px;
+  border: 1px solid rgba(46, 47, 66, 0.4); 
 }
 
 .modal-form-textarea {
@@ -838,7 +841,8 @@ footer {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--cl-navy-blue, rgba(46, 47, 66, 0.4));
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4)
 }
 
 .modal-form-icon {
@@ -888,8 +892,9 @@ footer {
   border: 1px solid rgba(0, 0, 128, 0.4);
   border-radius: 2px;
   fill: transparent;
-  transition: background-color var(--transition-hover-focus),
-    border var(--transition-hover-focus), fill var(--transition-hover-focus);
+  transition: background-color var(--transition-hover-focus);
+  fill: var(--transition-hover-focus);
+  border: 1px solid rgba(46, 47, 66, 0.4); 
 }
 
 .privacy-policy-link {
@@ -906,4 +911,13 @@ footer {
   display: block;
   padding: 16px 32px;
   margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--cl-white);
+  background-color: var(--cl-iris);
+  border: none;
+  transition: var(--transition-hover-focus);
 }
